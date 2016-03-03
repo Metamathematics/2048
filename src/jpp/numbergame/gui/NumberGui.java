@@ -37,7 +37,7 @@ public class NumberGui extends Application {
 
 		root.setTop(new StackPane(getTopLabel()));
 
-		primaryStage.setTitle("2048");
+		primaryStage.setTitle("2048 by Sergey Gerodes");
 		primaryStage.setScene(scene);
 		primaryStage.show();
 
@@ -45,7 +45,7 @@ public class NumberGui extends Application {
 
 	}
 
-	public void oneTurn(Scene scene, BorderPane root) {
+	public void oneTurn(Scene scene, final BorderPane root) {
 		scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
 
 			@Override
@@ -133,7 +133,7 @@ public class NumberGui extends Application {
 	}
 
 	public void renewLabels(BorderPane root) {
-		int help = 0;
+		//int help = 0;
 		for (int x = 0; x < 4; ++x) {
 			for (int y = 0; y < 4; ++y) {
 				/*

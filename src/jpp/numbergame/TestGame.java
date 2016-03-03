@@ -1,13 +1,12 @@
 package jpp.numbergame;
 
-import static helper.HelperGame2048.*;
 
 public class TestGame {
 	public static void main(String[] args) {
 
-		Tile tile1 = new Tile(new Coordinate2D(1,1),5);
-		Coordinate2D coord1 = new Coordinate2D(1,1);
-		Coordinate2D coord2 = new Coordinate2D(115,32);
+		//Tile tile1 = new Tile(new Coordinate2D(1,1),5);
+		//Coordinate2D coord1 = new Coordinate2D(1,1);
+		//Coordinate2D coord2 = new Coordinate2D(115,32);
 		
 		NumberGame game = new NumberGame(2,2,2);
 /*
